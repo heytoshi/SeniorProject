@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03DAC6"
+    android:layout_height="match_parent"
+    tools:context=".OtherUserProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userProPic"
+        android:layout_width="215dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="48dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:layout_constraintEnd_toStartOf="@+id/changePicture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textDisplayName"
+        android:layout_width="135dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="casual"
+        android:text="Display Name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userProPic" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="208dp"
+        android:fontFamily="monospace"
+        android:text="Hi, add your information."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDisplayName"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <Button
+        android:id="@+id/buttonFriendRequest"
+        android:layout_width="395dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="84dp"
+        android:text="Follow User"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDescription" />
+
+    <Button
+        android:id="@+id/buttonDeclineRequest"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:text="Decline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFriendRequest" />
+
+    <Button
+        android:id="@+id/buttonUserLinks"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="13dp"
+        android:text="User Links"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFriendRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDescription" />
+</android.support.constraint.ConstraintLayout>

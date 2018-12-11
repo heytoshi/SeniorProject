@@ -1,0 +1,53 @@
+2018/11/30 04:38:03 [emerg] 14272#8968: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:38:08 [emerg] 6776#3504: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:38:43 [emerg] 18604#4680: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:39:11 [emerg] 9680#12820: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:40:00 [emerg] 4720#15812: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:40:12 [emerg] 3416#1696: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:41:01 [emerg] 11468#13436: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:42:21 [emerg] 10620#16344: CreateFile() "C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2018/11/30 04:48:13 [notice] 18836#6156: sockinit() attempting to access sockapi
+2018/11/30 04:48:13 [notice] 18836#6156: Access to sockapi succeded!
+2018/11/30 04:48:13 [notice] 18836#6156: using sockapi from "4;72;"
+2018/11/30 04:48:13 [notice] 17820#16692: sockinit() attempting to access sockapi
+2018/11/30 04:48:13 [notice] 17820#16692: Access to sockapi succeded!
+2018/11/30 04:48:13 [notice] 17820#16692: using sockapi from "4;8;"
+2018/11/30 05:10:05 [notice] 2216#8576: sockinit() attempting to access sockapi
+2018/11/30 05:10:05 [notice] 2216#8576: Access to sockapi succeded!
+2018/11/30 05:10:05 [notice] 2216#8576: using sockapi from "4;8;"
+2018/11/30 05:10:05 [emerg] 2216#8576: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/11/30 05:10:05 [alert] 17760#10224: worker process 2216 exited with code 1
+2018/11/30 05:10:05 [alert] 17760#10224: could not respawn worker
+2018/11/30 05:10:07 [notice] 13100#5916: sockinit() attempting to access sockapi
+2018/11/30 05:10:07 [notice] 13100#5916: Access to sockapi succeded!
+2018/11/30 05:10:07 [notice] 13100#5916: using sockapi from "4;8;"
+2018/11/30 05:10:07 [emerg] 13100#5916: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/11/30 05:10:07 [alert] 17760#10224: worker process 13100 exited with code 1
+2018/11/30 05:10:07 [alert] 17760#10224: could not respawn worker
+2018/11/30 05:10:14 [emerg] 5320#13772: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/12/07 02:25:20 [emerg] 7936#17528: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/12/07 02:25:57 [emerg] 8072#4600: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/12/07 02:26:02 [emerg] 15032#2440: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/12/07 02:26:15 [emerg] 14844#7236: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/12/07 02:26:28 [emerg] 20068#14976: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:187
+2018/12/07 02:27:54 [emerg] 18624#592: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:186
+2018/12/07 02:28:00 [emerg] 17364#10548: unexpected "}" in C:\Users\Toshi\Desktop\SeniorProject\Nginx/conf/nginx.conf:186
+2018/12/07 02:28:20 [notice] 20024#18968: sockinit() attempting to access sockapi
+2018/12/07 02:28:20 [notice] 20024#18968: Access to sockapi succeded!
+2018/12/07 02:28:20 [notice] 20024#18968: using sockapi from "8;72;"
+2018/12/07 02:28:21 [notice] 20168#17536: sockinit() attempting to access sockapi
+2018/12/07 02:28:21 [notice] 20168#17536: Access to sockapi succeded!
+2018/12/07 02:28:21 [notice] 20168#17536: using sockapi from "8;12;"
+2018/12/07 02:28:56 [notice] 14072#19572: Fatal: wait for sockapi failed
+2018/12/07 02:29:19 [notice] 13356#6860: Fatal: wait for sockapi failed
+2018/12/07 02:30:53 [notice] 11948#8228: Fatal: wait for sockapi failed
+2018/12/07 02:31:12 [notice] 6876#7000: Fatal: wait for sockapi failed
+2018/12/07 02:31:16 [notice] 14732#15696: Fatal: wait for sockapi failed
+2018/12/07 02:31:16 [notice] 14832#7200: Fatal: wait for sockapi failed
+2018/12/07 02:31:17 [notice] 6648#12260: Fatal: wait for sockapi failed
+2018/12/07 02:35:34 [notice] 19836#10640: Fatal: wait for sockapi failed
+2018/12/07 02:35:51 [notice] 7856#14424: Fatal: wait for sockapi failed
+2018/12/07 02:36:37 [notice] 7440#5132: Fatal: wait for sockapi failed
+2018/12/07 02:39:47 [notice] 18188#12908: sockinit() attempting to access sockapi
+2018/12/07 02:39:47 [notice] 18188#12908: Access to sockapi succeded!
+2018/12/07 02:39:47 [notice] 18188#12908: using sockapi from "8;12;"
