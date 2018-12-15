@@ -1,6 +1,6 @@
 # SeniorProject
 
-Language: Java, Node.js, JavaScript.
+Language: Java, JavaScript.
 
 //About
 
