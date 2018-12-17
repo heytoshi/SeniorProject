@@ -2,6 +2,8 @@
 
 Language: Java, JavaScript.
 
+[Demo](https://www.youtube.com/watch?v=C4_3Zgcq5vk)
+
 //About
 
 This project is an application similiar to Twitch, however, uses RTMP protocol to access streams and has social media features. It was implemented using Android Studio and uses Firebase as a database. The chat system was implemented using Socket.IO and Node.js.
